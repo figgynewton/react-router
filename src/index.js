@@ -29,7 +29,6 @@ ReactDOM.render(
                     <Route path={"cool"} element={<Cool/>}/>
                 </Route>
             </Routes>
-            <App />
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')
