@@ -8,7 +8,9 @@ import Home from "./components/pages/Home";
 import Data from "./components/pages/Data";
 import Cool from "./components/pages/Cool";
 import User from "./components/User";
-import ColorBlock from "./components/ColorBlock";
+import Box1 from "./components/Box1";
+import Box2 from "./components/Box2";
+import Box3 from "./components/Box3";
 import Object from "./components/Object";
 
 ReactDOM.render(
@@ -17,7 +19,9 @@ ReactDOM.render(
             <Routes>
                 <Route path={"/"} element={<App/>}>
                     <Route index element={<Home/>}/>
-                    <Route path={"colorBlock"} element={<ColorBlock/>}/>
+                    <Route path={"Box1"} element={<Box1/>}/>
+                    <Route path={"Box2"} element={<Box2/>}/>
+                    <Route path={"Box3"} element={<Box3/>}/>
                     <Route path={"data"} element={<Data/>}>
                         <Route index element={<Object/>}/>
                         <Route path={"/data/:id"} element={<User/>}/>

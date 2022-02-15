@@ -29,20 +29,20 @@
 }
 .box1 {
   background-color: red;
-  width: 1500px;
-  height: 1000px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .box2 {
   background-color: blue;
-  width: 1500px;
-  height: 1000px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .box3 {
   background-color: green;
-  width: 1500px;
-  height: 1000px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .flexColumn {
@@ -59,8 +59,4 @@ img {
 
 .space {
   padding: 25px;
-}
-
-.spaceTwo {
-  padding: 10px;
 }
